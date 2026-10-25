@@ -1,0 +1,17 @@
+{
+  "version": "compound-v1.1",
+  "files": {
+    "dev.jsonl": {
+      "count": 8,
+      "sha256": "a156bf959af6375858771c033c00eb80478ff29e4fcb2348ab9160555720dbd6"
+    },
+    "holdout.jsonl": {
+      "count": 4,
+      "sha256": "8dc57be5b05415ef53ade85a8270d2791b5a64dffe0555cfa79c699ee125c096"
+    }
+  },
+  "dataset_sha256": "5b19cb2a8c4e123014234be4c8b2f080f74b7ff2bd1df075a9f8215b2ac3a3a1",
+  "scope": "self-authored synthetic checks; demo fixtures; human labels/semantic success not established",
+  "split_rule": "development and separately reserved requests; template/fixture generalization limited",
+  "development_correction": "deny foreign order without downstream reads; direct owned-order program guard is valid, query_order tool is not mandatory"
+}

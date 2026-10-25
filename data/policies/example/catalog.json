@@ -1,0 +1,112 @@
+{
+  "schema_version": 1,
+  "catalog_revision": "synthetic-policy-v1",
+  "policy_groups": [
+    {
+      "policy_group": "returns",
+      "complete": true
+    },
+    {
+      "policy_group": "shipping",
+      "complete": true
+    }
+  ],
+  "documents": [
+    {
+      "document_id": 41001,
+      "body_sha256": "64597c2b6fd841aadd1b4f1d8af7bc3cc95b66f315b9085d133b43c1612bd22d",
+      "policy_id": "returns-east",
+      "version": "v9",
+      "policy_group": "returns",
+      "review_status": "approved",
+      "approval_ref": "synthetic-review-20261001",
+      "effective_from": "2026-09-01T00:00:00+08:00",
+      "effective_to": "2026-10-01T00:00:00+08:00",
+      "revision_at": "2026-09-20T00:00:00+08:00",
+      "timebasis": "now",
+      "regions": [
+        "CN-EAST"
+      ],
+      "fulfillment_scopes": [
+        "self_operated"
+      ],
+      "source": "self-authored-synthetic-policy-41001",
+      "clauses": [
+        {
+          "clause_id": "return_window_days",
+          "claim_key": "return_window_days",
+          "value": 14,
+          "conditions": [
+            {
+              "fact": "order_status",
+              "op": "eq",
+              "value": "已签收"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "document_id": 41002,
+      "body_sha256": "23f16a31a10d8832faff1953989fac0f312fb24c269ee658352dcebbd33bdd58",
+      "policy_id": "returns-east",
+      "version": "v2",
+      "policy_group": "returns",
+      "review_status": "approved",
+      "approval_ref": "synthetic-review-20261001",
+      "effective_from": "2026-10-01T00:00:00+08:00",
+      "effective_to": null,
+      "revision_at": "2026-09-20T00:00:00+08:00",
+      "timebasis": "now",
+      "regions": [
+        "CN-EAST"
+      ],
+      "fulfillment_scopes": [
+        "self_operated"
+      ],
+      "source": "self-authored-synthetic-policy-41002",
+      "clauses": [
+        {
+          "clause_id": "return_window_days",
+          "claim_key": "return_window_days",
+          "value": 7,
+          "conditions": [
+            {
+              "fact": "order_status",
+              "op": "eq",
+              "value": "已签收"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "document_id": 41003,
+      "body_sha256": "821c319bdd16d2818cfadbd518d43d3260969fea3b252ebb8fb21aebf583aa1c",
+      "policy_id": "shipping-east",
+      "version": "v1",
+      "policy_group": "shipping",
+      "review_status": "approved",
+      "approval_ref": "synthetic-review-20261001",
+      "effective_from": "2026-10-01T00:00:00+08:00",
+      "effective_to": null,
+      "revision_at": "2026-09-20T00:00:00+08:00",
+      "timebasis": "now",
+      "regions": [
+        "CN-EAST"
+      ],
+      "fulfillment_scopes": [
+        "self_operated"
+      ],
+      "source": "self-authored-synthetic-policy-41003",
+      "clauses": [
+        {
+          "clause_id": "shipping_stall_hours",
+          "claim_key": "shipping_stall_hours",
+          "value": 48,
+          "conditions": []
+        }
+      ]
+    }
+  ]
+}

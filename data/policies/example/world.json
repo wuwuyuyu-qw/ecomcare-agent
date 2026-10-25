@@ -1,0 +1,22 @@
+{
+  "version": "policy-world-v1",
+  "reference_time": "2026-10-05T01:00:00+08:00",
+  "orders": [
+    {
+      "order_id": "POLICY_A",
+      "owner": "customer_demo",
+      "region": "CN-EAST",
+      "fulfillment_scope": "self_operated",
+      "order_status": "已签收",
+      "delivered_at": "2026-10-04T12:00:00+08:00"
+    },
+    {
+      "order_id": "POLICY_B",
+      "owner": "customer_demo",
+      "region": "CN-WEST",
+      "fulfillment_scope": "self_operated",
+      "order_status": "已签收",
+      "delivered_at": "2026-10-04T12:00:00+08:00"
+    }
+  ]
+}

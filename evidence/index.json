@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-25",
+  "original_files_public": false,
+  "source_manifest_matched_files": 334,
+  "evidence": [
+    {
+      "id": "historical-baseline",
+      "private_relative_path": "reports/agent_evaluation/recruit_sprint_20261024_123726/BASELINE-REPORT.md",
+      "sha256": "38b9f7bff59f9a9af2e53ecb7d1f16ccf320f2afa19a6cc41cb30e8ed5ec53c9",
+      "meaning": "业务12/12；保护审计失败"
+    },
+    {
+      "id": "historical-results",
+      "private_relative_path": "reports/agent_evaluation/recruit_sprint_20261024_123726/baseline12-after-local-recovery/dev12/results.jsonl",
+      "sha256": "14fb073f1d9d08ae465d443dda998f9ebdee03a027b2ecf24416db47c8140d1d",
+      "meaning": "12条记录、13轮；不公开原文"
+    },
+    {
+      "id": "historical-graph",
+      "private_relative_path": "reports/agent_evaluation/recruit_sprint_20261024_123726/baseline12-after-local-recovery/dev12/graph-observations.jsonl",
+      "sha256": "612c2f93ade19aa27653c0b4d479bc0b3d132c8c072fd633b91aaf9849df5f1a",
+      "meaning": "原Graph观察，私有"
+    },
+    {
+      "id": "historical-tools",
+      "private_relative_path": "reports/agent_evaluation/recruit_sprint_20261024_123726/baseline12-after-local-recovery/dev12/tool-observations.jsonl",
+      "sha256": "b9fd9366eb687c01dd8673c23b03a9f1803974e17f4010ee744e060893f0e9e9",
+      "meaning": "原工具观察，私有"
+    },
+    {
+      "id": "historical-protection",
+      "private_relative_path": "reports/agent_evaluation/recruit_sprint_20261024_123726/protection-audit.json",
+      "sha256": "92e8ea778fbd08d824d46adbf613c4f4d68488933e4a778cd067880524b2e44f",
+      "meaning": "formal_baseline_qualified=false"
+    },
+    {
+      "id": "offline-rerank",
+      "private_relative_path": "reports/agent_evaluation/recruit_final_20261024_185954/rerank-offline-replay-final.json",
+      "sha256": "0587207c89a4f8943bf5d5301c20b87761d812554c977a84fd129b5cfc9536b7",
+      "meaning": "第14条缺测，后续47次被本地阻止"
+    },
+    {
+      "id": "offline-stream",
+      "private_relative_path": "reports/agent_evaluation/recruit_final_20261024_185954/stream-isolation-replay-final.json",
+      "sha256": "27c71780123054222f1324e29becd0aee567a1afc5222dca3082de3d7b894215",
+      "meaning": "单次流状态隔离，离线样例"
+    },
+    {
+      "id": "source-manifest",
+      "private_relative_path": "reports/agent_evaluation/recruit_final_20261024_185954/source-manifest.json",
+      "sha256": "c2a191e878b37c7d9b61a584ae1287ed547fda193a1dda2c3541e39747882e1b",
+      "meaning": "334文件逐一匹配"
+    },
+    {
+      "id": "task-safety-tests",
+      "private_relative_path": "tests/agent_core/test_task_safety.py",
+      "sha256": "8e15c14ddc2d9a4878566ba3b08f105a0056b4f39f705aae3bdd8629ac6235aa",
+      "meaning": "scope、换单、结果契约、写入拒绝回归"
+    }
+  ],
+  "historical": {
+    "tasks": 12,
+    "turns": 13,
+    "PASS": 12,
+    "FAIL": 0,
+    "UNKNOWN": 0,
+    "NOT_RUN": 0,
+    "ABORTED": 0,
+    "formal_baseline_qualified": false,
+    "real_model": true,
+    "mock_business": true
+  },
+  "offline_replay": {
+    "observations": 61,
+    "first_missing": 14,
+    "blocked_after_missing": 47,
+    "real_provider_requests": 0
+  },
+  "latest_online_revalidated": false,
+  "publication_note": "Original runtime artifacts remain private. Public source packaging differs from historical online conditions."
+}

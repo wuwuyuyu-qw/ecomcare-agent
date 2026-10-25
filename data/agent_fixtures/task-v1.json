@@ -1,0 +1,1203 @@
+{
+  "profile": "task-v1",
+  "version": 1,
+  "orders": [
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100002",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100002"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100002",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 1,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100004",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100004"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100004",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 6,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100006",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100006"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100006",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 12,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100008",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100008"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100008",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 18,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100010",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100010"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100010",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 24,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100012",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100012"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100012",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 30,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100014",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100014"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100014",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 36,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100016",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100016"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100016",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 42,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100018",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100018"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100018",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 47,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100102",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100102"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100102",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 48,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100104",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100104"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100104",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 49,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100106",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100106"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100106",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 50,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100108",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100108"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100108",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 60,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100110",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100110"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100110",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 96,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100112",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100112"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100112",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 120,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100114",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100114"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100114",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 168,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100116",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100116"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100116",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 240,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100118",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100118"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100118",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 336,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100202",
+        "status": "已签收",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100202"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100202",
+        "status_code": "DELIVERED",
+        "current_city": "杭州",
+        "trace": [
+          "杭州站点：已签收"
+        ],
+        "stalled_hours": 0,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100204",
+        "status": "已签收",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100204"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100204",
+        "status_code": "DELIVERED",
+        "current_city": "杭州",
+        "trace": [
+          "杭州站点：已签收"
+        ],
+        "stalled_hours": 0,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100206",
+        "status": "已签收",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100206"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100206",
+        "status_code": "DELIVERED",
+        "current_city": "杭州",
+        "trace": [
+          "杭州站点：已签收"
+        ],
+        "stalled_hours": 0,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100208",
+        "status": "已签收",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100208"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100208",
+        "status_code": "DELIVERED",
+        "current_city": "杭州",
+        "trace": [
+          "杭州站点：已签收"
+        ],
+        "stalled_hours": 0,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100210",
+        "status": "已签收",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100210"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100210",
+        "status_code": "DELIVERED",
+        "current_city": "杭州",
+        "trace": [
+          "杭州站点：已签收"
+        ],
+        "stalled_hours": 0,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100212",
+        "status": "已签收",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100212"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100212",
+        "status_code": "DELIVERED",
+        "current_city": "杭州",
+        "trace": [
+          "杭州站点：已签收"
+        ],
+        "stalled_hours": 0,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100214",
+        "status": "已签收",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100214"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100214",
+        "status_code": "DELIVERED",
+        "current_city": "杭州",
+        "trace": [
+          "杭州站点：已签收"
+        ],
+        "stalled_hours": 0,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100216",
+        "status": "已签收",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100216"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100216",
+        "status_code": "DELIVERED",
+        "current_city": "杭州",
+        "trace": [
+          "杭州站点：已签收"
+        ],
+        "stalled_hours": 0,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100218",
+        "status": "已签收",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100218"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100218",
+        "status_code": "DELIVERED",
+        "current_city": "杭州",
+        "trace": [
+          "杭州站点：已签收"
+        ],
+        "stalled_hours": 0,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100500",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100500"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100500",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 48,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100501",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100501"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100501",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 1,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100502",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100502"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100502",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 60,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100503",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100503"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100503",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 2,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100504",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100504"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100504",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 72,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100505",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100505"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100505",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 3,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100506",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100506"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100506",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 96,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100507",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100507"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100507",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 4,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100508",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100508"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100508",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 120,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100509",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100509"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100509",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 5,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100510",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100510"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100510",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 144,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100511",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100511"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100511",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 6,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100512",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100512"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100512",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 168,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100513",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100513"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100513",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 7,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100514",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100514"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100514",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 192,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100515",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100515"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100515",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 8,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100516",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100516"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100516",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 216,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100517",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100517"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100517",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 9,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100518",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100518"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100518",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 240,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100519",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100519"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100519",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 10,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100600",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100600"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100600",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 48,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100602",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100602"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100602",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 54,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100604",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100604"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100604",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 60,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100606",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100606"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100606",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 66,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100608",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100608"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100608",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 72,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100610",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100610"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100610",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 78,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100612",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100612"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100612",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 84,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100614",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100614"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100614",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 90,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100616",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100616"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100616",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 96,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    },
+    {
+      "owner": "customer_demo",
+      "order": {
+        "order_id": "9100618",
+        "status": "已发货",
+        "amount": 199,
+        "created_at": "2026-09-25 10:00",
+        "product": "合成物流演示商品",
+        "tracking_no": "SFSYNTH9100618"
+      },
+      "logistics": {
+        "tracking_no": "SFSYNTH9100618",
+        "status_code": "IN_TRANSIT",
+        "current_city": "杭州",
+        "trace": [
+          "杭州分拨中心：已发出"
+        ],
+        "stalled_hours": 102,
+        "carrier_code": "SF-EXP-SYNTH"
+      }
+    }
+  ]
+}

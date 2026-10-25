@@ -1,0 +1,22 @@
+{
+  "version": "rag-answerability-v1",
+  "files": {
+    "corpus.json": {
+      "sha256": "19806aa23b09e98ca6d4856f0aa789e8e4721954b0e022604d123e72434da157",
+      "count": 9
+    },
+    "dev.jsonl": {
+      "sha256": "78de2cf887edec914414ab9f21bce534bb2714429cba42e1c5dfabc650caba75",
+      "count": 24
+    }
+  },
+  "dataset_sha256": "022b6f9185c2507f041aa9c2d041538144841769602a1323098b4ddcd2206a87",
+  "split": "development_only",
+  "authoring": "self-written synthetic operations guides and positive/negative queries",
+  "limits": [
+    "labels visible for development; no held-out result",
+    "guides reflect current read-only demo; no real customer data",
+    "attack source is explicitly synthetic",
+    "evaluation separates gate decisions from generated answer review"
+  ]
+}

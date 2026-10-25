@@ -1,0 +1,15 @@
+{
+  "version": "readonly-recovery-v1",
+  "scope": "evaluation-process-only; never installed in the production profile registry",
+  "owner": "customer_demo",
+  "cases": [
+    {"id": "task-09-07", "order_id": "9100812", "tracking_no": "SFSYNTH9100812", "fault": "missing_tracking"},
+    {"id": "task-09-08", "order_id": "9100814", "tracking_no": "SFSYNTH9100814", "fault": "trace_not_list"},
+    {"id": "task-09-10", "order_id": "9100818", "tracking_no": "SFSYNTH9100818", "fault": "non_object_result"},
+    {"id": "task-10-07", "order_id": "9100912", "tracking_no": "SFSYNTH9100912", "fault": "deadline"},
+    {"id": "task-10-09", "order_id": "9100916", "tracking_no": "SFSYNTH9100916", "fault": "tool_budget"},
+    {"id": "task-10-10", "order_id": "9100918", "tracking_no": "SFSYNTH9100918", "fault": "partial_evidence"}
+  ],
+  "order": {"status": "已发货", "amount": 199, "created_at": "2026-10-01 10:00", "product": "合成只读恢复商品"},
+  "logistics": {"status_code": "IN_TRANSIT", "current_city": "合成测试城市", "trace": ["合成测试轨迹"], "stalled_hours": 72}
+}

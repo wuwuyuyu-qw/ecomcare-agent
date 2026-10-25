@@ -1,0 +1,24 @@
+{
+  "version": "rag-development-v1",
+  "authoring": "self-written synthetic policy and development queries",
+  "files": {
+    "corpus.json": {
+      "sha256": "2c18db3179379467b03b3f8eabbacb396860b98b029fc898fecb1940634c60de",
+      "count": 16
+    },
+    "catalog.json": {
+      "sha256": "68f6f73b689fef51830518e369e21760ed277edf543324e093036318e5b00bde",
+      "count": 16
+    },
+    "dev.jsonl": {
+      "sha256": "93596cf636fadb28671eee1577641ed8bb6458f9e063b9eead6534a17e065a68",
+      "count": 12
+    }
+  },
+  "dataset_sha256": "9fc68bbe3ccfe778e3411bd9b8a13645d6327c37d04371daea7576c368826071",
+  "limits": [
+    "development labels visible; no held-out generalization claim",
+    "supplied world facts and policy-group scope are oracle diagnostics, not runtime extraction",
+    "retrieval/policy probes do not evaluate generated answers"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "model_config": {
+    "chat_model": "replace-with-actual-provider-model-id",
+    "intent_model": "replace-with-actual-provider-model-id",
+    "embedding_model": "replace-with-actual-provider-model-id",
+    "rerank_model": "replace-with-actual-provider-model-id",
+    "stage_temperatures": {
+      "coreference": 0.3,
+      "intent_classification": 0.3,
+      "logistics_extraction": 0,
+      "logistics_draft": 0,
+      "main_agent": 0.3
+    }
+  },
+  "knowledge_version": "replace-with-index-and-policy-version",
+  "fixture_profile": "demo",
+  "fixture_version": "demo",
+  "fixture_sha256": null,
+  "pricing": {
+    "currency": "CNY",
+    "rates_as_of": null,
+    "source": null,
+    "configured_on_server": false
+  }
+}

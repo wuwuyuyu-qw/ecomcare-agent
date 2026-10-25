@@ -1,0 +1,74 @@
+name: ecomcare-local
+services:
+  mysql:
+    image: mysql:8.4
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:?Run init_local_env.py first}
+      MYSQL_DATABASE: mewhelp
+      MYSQL_USER: ecomcare
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:?Run init_local_env.py first}
+    ports:
+      - '127.0.0.1:${MYSQL_PORT:-13307}:3306'
+    volumes:
+      - mysql-data:/var/lib/mysql
+      - ./sql:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ['CMD-SHELL', 'mysqladmin ping -h localhost -uroot -p"$$MYSQL_ROOT_PASSWORD" --silent']
+      interval: 5s
+      timeout: 5s
+      retries: 30
+  etcd:
+    image: quay.io/coreos/etcd:v3.5.16
+    environment:
+      ETCD_AUTO_COMPACTION_MODE: revision
+      ETCD_AUTO_COMPACTION_RETENTION: '1000'
+      ETCD_QUOTA_BACKEND_BYTES: '4294967296'
+      ETCD_SNAPSHOT_COUNT: '50000'
+    command: etcd -advertise-client-urls=http://etcd:2379 -listen-client-urls http://0.0.0.0:2379 --data-dir /etcd
+    volumes:
+      - etcd-data:/etcd
+    healthcheck:
+      test: ['CMD', 'etcdctl', 'endpoint', 'health']
+      interval: 10s
+      timeout: 5s
+      retries: 30
+  minio:
+    image: minio/minio:RELEASE.2024-05-28T17-19-04Z
+    environment:
+      MINIO_ROOT_USER: ${MINIO_ROOT_USER:?Run init_local_env.py first}
+      MINIO_ROOT_PASSWORD: ${MINIO_ROOT_PASSWORD:?Run init_local_env.py first}
+    command: minio server /minio_data --console-address ':9001'
+    volumes:
+      - minio-data:/minio_data
+    healthcheck:
+      test: ['CMD', 'curl', '-f', 'http://localhost:9000/minio/health/live']
+      interval: 10s
+      timeout: 5s
+      retries: 30
+  milvus-standalone:
+    image: milvusdb/milvus:v2.6.22
+    command: ['milvus', 'run', 'standalone']
+    environment:
+      ETCD_ENDPOINTS: etcd:2379
+      MINIO_ADDRESS: minio:9000
+      MINIO_ACCESS_KEY_ID: ${MINIO_ROOT_USER:?Run init_local_env.py first}
+      MINIO_SECRET_ACCESS_KEY: ${MINIO_ROOT_PASSWORD:?Run init_local_env.py first}
+    ports:
+      - '127.0.0.1:${MILVUS_PORT:-29530}:19530'
+      - '127.0.0.1:${MILVUS_HEALTH_PORT:-19091}:9091'
+    volumes:
+      - milvus-data:/var/lib/milvus
+    depends_on:
+      - etcd
+      - minio
+    healthcheck:
+      test: ['CMD', 'curl', '-f', 'http://localhost:9091/healthz']
+      interval: 10s
+      timeout: 5s
+      start_period: 90s
+      retries: 30
+volumes:
+  mysql-data:
+  etcd-data:
+  minio-data:
+  milvus-data:

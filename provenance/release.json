@@ -1,0 +1,32 @@
+{
+  "project": "EcomCare Agent",
+  "release_preparation_date": "2026-10-25",
+  "upstream": {
+    "name": "MewHelp",
+    "author_attribution": "小林coding",
+    "course_head": "90e4b2465b45ee99ebc9792e588108a2f3646275",
+    "source_publication_permission": "Project holder confirmed permission from the course author on 2026-10-25; no additional blanket relicensing inferred",
+    "private_worktree_code_fingerprint_before_packaging": "827645ca3c4fcd3f36891cbaab87e35f508e713ad0fb9be8158bf5e7247c7121"
+  },
+  "original_git_history_included": false,
+  "codex_assistance_disclosed": true,
+  "packaging_source_adaptations": [
+    "app/config.py: require explicit private database configuration instead of shared default credentials",
+    "app/evaluation/course_baseline.py: attributed, hash-checked prompt snapshot for a fresh Git history",
+    "scripts/dev.sh: Compose health wait instead of a fixed legacy Milvus port"
+  ],
+  "production_graph_prompt_guard_and_scoring_changed_for_packaging": false,
+  "omitted_categories": [
+    "original Git objects and private development history",
+    "private configuration, runtime logs, databases and raw reports",
+    "internship notes and personal recruitment audits",
+    "course prose, images, training artifacts and course-specific evaluation material packs"
+  ],
+  "public_knowledge": "Newly authored synthetic demonstration texts, not a real merchant policy; not the historical evaluation corpus",
+  "latest_business_online_revalidation": false,
+  "historical_business_tasks": 12,
+  "historical_business_turns": 13,
+  "historical_business_pass": 12,
+  "historical_budget_protection_compliant": false,
+  "release_offline_tests": {"passed": 446, "skipped": 1, "subtests_passed": 25}
+}

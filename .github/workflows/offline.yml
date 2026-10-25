@@ -1,0 +1,25 @@
+name: Offline Agent Regression
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  offline:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      PYTHONUTF8: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: '3.12'
+          enable-cache: true
+          cache-dependency-glob: uv.lock
+      - name: Install locked non-ML test dependencies
+        run: uv sync --locked --group dev --no-group ml --no-install-package pymilvus --no-install-package milvus-lite
+      - name: Offline allowlisted tests, no provider credentials
+        run: .venv/bin/python -B scripts/check_agent_core.py --tests-only --compatible-course

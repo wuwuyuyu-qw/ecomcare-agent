@@ -1,0 +1,45 @@
+{
+  "dataset_version": "task-v1.1",
+  "annotation_status": "synthetic_rubric_pending_human_review",
+  "frozen_at": "2026-10-03",
+  "files": {
+    "dev.jsonl": {
+      "count": 80,
+      "sha256": "040b1e96d17948885dcf08a58d9dfda9c23ca6e49b9dbfd6019312465cd51e44"
+    },
+    "holdout.jsonl": {
+      "count": 40,
+      "sha256": "1a11e3fca66c21632f75718df18df86187b57844420432d13f73ef769937e1ea"
+    }
+  },
+  "dataset_sha256": "5bf8ae6fb62ff51235ac3712869ffaf2fbfd112aeea78eb3d410fa503d2051b9",
+  "fixture_profiles": {
+    "demo": {
+      "version": "demo",
+      "sha256": null,
+      "owner": null
+    },
+    "task-v1": {
+      "version": "task-v1.0",
+      "sha256": "41a664e6f06141d5dc96330fa8df00c3b0ba7e67b7ac84e948653c2817dd5a41",
+      "owner": "customer_demo"
+    }
+  },
+  "online_by_profile": {
+    "demo": {
+      "dev": 9,
+      "holdout": 2
+    },
+    "task-v1": {
+      "dev": 41,
+      "holdout": 17
+    }
+  },
+  "limitations": [
+    "Fixture eligibility is not measured online success",
+    "task-v1 requires explicit matching profile in API and MCP and customer_demo identity",
+    "120 means synthetic task definitions pending human review, not 120 independently executed experiments",
+    "Policy applicability, fault injection and role/foreign-session adapters are incomplete"
+  ],
+  "online_supported": 58
+}

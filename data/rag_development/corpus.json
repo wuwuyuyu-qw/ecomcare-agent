@@ -1,0 +1,130 @@
+[
+  {
+    "id": 42001,
+    "question": "华东物流停滞旧版：72小时",
+    "answer": "华东自营包裹连续72小时没有新的轨迹，可发起人工物流调查。本条旧版仅在2026年9月有效，10月起已停用。",
+    "category": "stall",
+    "section_path": "自写合成政策/华东物流停滞旧版：72小时",
+    "content_type": "policy"
+  },
+  {
+    "id": 42002,
+    "question": "华东物流停滞现行版：48小时",
+    "answer": "2026年10月起，华东自营包裹超过48小时没有轨迹更新，可申请人工核查。调查不代表丢件，也不自动退款。",
+    "category": "stall",
+    "section_path": "自写合成政策/华东物流停滞现行版：48小时",
+    "content_type": "policy"
+  },
+  {
+    "id": 42003,
+    "question": "西部自营包裹无更新：72小时",
+    "answer": "西部自营配送跨区域转运时间较长，连续72小时无更新后申请人工物流调查。此条只适用于CN-WEST，不适用于华东。",
+    "category": "stall",
+    "section_path": "自写合成政策/西部自营包裹无更新：72小时",
+    "content_type": "policy"
+  },
+  {
+    "id": 42004,
+    "question": "华东物流停滞未来版：24小时",
+    "answer": "2026年11月起华东自营配送无更新24小时可申请物流调查；在11月前本条尚未生效。",
+    "category": "stall",
+    "section_path": "自写合成政策/华东物流停滞未来版：24小时",
+    "content_type": "policy"
+  },
+  {
+    "id": 42005,
+    "question": "草案：华东物流停滞2小时即可赔偿",
+    "answer": "草案声称华东包裹2小时没更新就可以赔偿。本条未经审核，不是可执行政策，不得向客户承诺赔偿。",
+    "category": "stall",
+    "section_path": "自写合成政策/草案：华东物流停滞2小时即可赔偿",
+    "content_type": "policy"
+  },
+  {
+    "id": 42006,
+    "question": "显示签收但未收到的核查",
+    "answer": "自营订单显示签收而客户未收到，应先核对签收人、收货地点和代收情况。人工核查的演示响应目标为4小时；签收状态本身不能证明本人收到。",
+    "category": "signed_dispute",
+    "section_path": "自写合成政策/显示签收但未收到的核查",
+    "content_type": "policy"
+  },
+  {
+    "id": 42007,
+    "question": "华东退货窗口旧版：14天",
+    "answer": "华东自营商品无理由退货窗口旧版为签收后14天，本条在2026年9月有效。2026年10月起改用新版本。",
+    "category": "return_window",
+    "section_path": "自写合成政策/华东退货窗口旧版：14天",
+    "content_type": "policy"
+  },
+  {
+    "id": 42008,
+    "question": "华东自营无理由退货：7天",
+    "answer": "华东自营商品现行无理由退货申请窗口为签收后7天。商品需满足完好条件，申请并不等于退款已到账。",
+    "category": "return_window",
+    "section_path": "自写合成政策/华东自营无理由退货：7天",
+    "content_type": "policy"
+  },
+  {
+    "id": 42009,
+    "question": "华东平台商家退货：3天",
+    "answer": "华东平台商家履约的商品申请窗口为签收后3天。平台商家订单使用marketplace规则，不使用自营7天规则。",
+    "category": "return_window",
+    "section_path": "自写合成政策/华东平台商家退货：3天",
+    "content_type": "policy"
+  },
+  {
+    "id": 42010,
+    "question": "自营质量问题退货运费",
+    "answer": "自营订单经核验确属质量问题，退货运费由商家承担。客户单方面声称质量问题不足以证明符合该条款。",
+    "category": "quality_shipping",
+    "section_path": "自写合成政策/自营质量问题退货运费",
+    "content_type": "policy"
+  },
+  {
+    "id": 42011,
+    "question": "自营个人原因退货运费",
+    "answer": "自营商品因个人喜好改变而退货，运费由客户承担。此条适用于经确认的个人原因，不适用于质量问题。",
+    "category": "preference_shipping",
+    "section_path": "自写合成政策/自营个人原因退货运费",
+    "content_type": "policy"
+  },
+  {
+    "id": 42012,
+    "question": "自营电子设备保修期限",
+    "answer": "自营电子设备的合成保修期限为365天。宠物食品及非电子用品不适用本条；查是否在保还需实际购买日期和品类。",
+    "category": "warranty",
+    "section_path": "自写合成政策/自营电子设备保修期限",
+    "content_type": "policy"
+  },
+  {
+    "id": 42013,
+    "question": "丢件补偿版本A：20元",
+    "answer": "自营丢件核验后演示补偿金额为20元。本文与同期限版本B同时发布，当前存在审批版本冲突，人工需要核对。",
+    "category": "loss_compensation",
+    "section_path": "自写合成政策/丢件补偿版本A：20元",
+    "content_type": "policy"
+  },
+  {
+    "id": 42014,
+    "question": "丢件补偿版本B：50元",
+    "answer": "自营丢件核验后演示补偿金额为50元。本文与同期限版本A冲突；不能按检索排名或版本字母决定给客户多少钱。",
+    "category": "loss_compensation",
+    "section_path": "自写合成政策/丢件补偿版本B：50元",
+    "content_type": "policy"
+  },
+  {
+    "id": 42015,
+    "question": "优惠券使用条件",
+    "answer": "合成满减券仅用于下一笔自营订单，不能直接折现，退货后券的恢复需另行审核。本说明与物流赔偿无关。",
+    "category": "coupon",
+    "section_path": "自写合成政策/优惠券使用条件",
+    "content_type": "policy"
+  },
+  {
+    "id": 42016,
+    "question": "运输破损需要保留的证据",
+    "answer": "自营配送商品到货破损，应保留外包装、面单和开箱照片。人工核验原因后确定处理方式，不应仅凭用户描述自动批准退款。",
+    "category": "damage",
+    "section_path": "自写合成政策/运输破损需要保留的证据",
+    "content_type": "policy"
+  }
+]

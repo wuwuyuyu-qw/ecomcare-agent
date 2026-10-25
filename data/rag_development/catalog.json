@@ -1,0 +1,510 @@
+{
+  "schema_version": 1,
+  "catalog_revision": "rag-development-v1",
+  "policy_groups": [
+    {
+      "policy_group": "coupon",
+      "complete": true
+    },
+    {
+      "policy_group": "damage",
+      "complete": true
+    },
+    {
+      "policy_group": "loss_compensation",
+      "complete": true
+    },
+    {
+      "policy_group": "preference_shipping",
+      "complete": true
+    },
+    {
+      "policy_group": "quality_shipping",
+      "complete": true
+    },
+    {
+      "policy_group": "return_window",
+      "complete": true
+    },
+    {
+      "policy_group": "signed_dispute",
+      "complete": true
+    },
+    {
+      "policy_group": "stall",
+      "complete": true
+    },
+    {
+      "policy_group": "warranty",
+      "complete": true
+    }
+  ],
+  "documents": [
+    {
+      "document_id": 42001,
+      "body_sha256": "e1227965dd76681dc5074c662a42b0a7ae6473a66dc82b50e176f1900061aba4",
+      "policy_id": "stall-cn-east-self_operated",
+      "version": "v9",
+      "policy_group": "stall",
+      "review_status": "approved",
+      "approval_ref": "synthetic-author-review",
+      "effective_from": "2026-09-01T00:00:00+08:00",
+      "effective_to": "2026-10-01T00:00:00+08:00",
+      "revision_at": "2026-09-01T00:00:00+08:00",
+      "timebasis": "now",
+      "regions": [
+        "CN-EAST"
+      ],
+      "fulfillment_scopes": [
+        "self_operated"
+      ],
+      "source": "self-authored-rag-development-42001",
+      "clauses": [
+        {
+          "clause_id": "shipping_stall_hours",
+          "claim_key": "shipping_stall_hours",
+          "value": 72,
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "document_id": 42002,
+      "body_sha256": "2aa0c730ada5ae3e0773524abbb08650985e494128c1a88aa18985f14e71aee8",
+      "policy_id": "stall-cn-east-self_operated",
+      "version": "v2",
+      "policy_group": "stall",
+      "review_status": "approved",
+      "approval_ref": "synthetic-author-review",
+      "effective_from": "2026-10-01T00:00:00+08:00",
+      "effective_to": null,
+      "revision_at": "2026-09-01T00:00:00+08:00",
+      "timebasis": "now",
+      "regions": [
+        "CN-EAST"
+      ],
+      "fulfillment_scopes": [
+        "self_operated"
+      ],
+      "source": "self-authored-rag-development-42002",
+      "clauses": [
+        {
+          "clause_id": "shipping_stall_hours",
+          "claim_key": "shipping_stall_hours",
+          "value": 48,
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "document_id": 42003,
+      "body_sha256": "ca5688f0d53531c5fad5b77d94924939bc80a8ece651efead57dd107190f49eb",
+      "policy_id": "stall-cn-west-self_operated",
+      "version": "v1",
+      "policy_group": "stall",
+      "review_status": "approved",
+      "approval_ref": "synthetic-author-review",
+      "effective_from": "2026-10-01T00:00:00+08:00",
+      "effective_to": null,
+      "revision_at": "2026-09-01T00:00:00+08:00",
+      "timebasis": "now",
+      "regions": [
+        "CN-WEST"
+      ],
+      "fulfillment_scopes": [
+        "self_operated"
+      ],
+      "source": "self-authored-rag-development-42003",
+      "clauses": [
+        {
+          "clause_id": "shipping_stall_hours",
+          "claim_key": "shipping_stall_hours",
+          "value": 72,
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "document_id": 42004,
+      "body_sha256": "ee6ea6a145337e19563810f9e102f985bdbf095bc0a67b253f4b514e836d636f",
+      "policy_id": "stall-cn-east-self_operated",
+      "version": "v3",
+      "policy_group": "stall",
+      "review_status": "approved",
+      "approval_ref": "synthetic-author-review",
+      "effective_from": "2026-11-01T00:00:00+08:00",
+      "effective_to": null,
+      "revision_at": "2026-09-01T00:00:00+08:00",
+      "timebasis": "now",
+      "regions": [
+        "CN-EAST"
+      ],
+      "fulfillment_scopes": [
+        "self_operated"
+      ],
+      "source": "self-authored-rag-development-42004",
+      "clauses": [
+        {
+          "clause_id": "shipping_stall_hours",
+          "claim_key": "shipping_stall_hours",
+          "value": 24,
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "document_id": 42005,
+      "body_sha256": "1257d75eb9701417e86236b69080d6551604a27ede345ab0ec592e52b2969ba0",
+      "policy_id": "stall-cn-east-self_operated",
+      "version": "v99",
+      "policy_group": "stall",
+      "review_status": "draft",
+      "approval_ref": null,
+      "effective_from": "2026-10-01T00:00:00+08:00",
+      "effective_to": null,
+      "revision_at": "2026-09-01T00:00:00+08:00",
+      "timebasis": "now",
+      "regions": [
+        "CN-EAST"
+      ],
+      "fulfillment_scopes": [
+        "self_operated"
+      ],
+      "source": "self-authored-rag-development-42005",
+      "clauses": [
+        {
+          "clause_id": "shipping_stall_hours",
+          "claim_key": "shipping_stall_hours",
+          "value": 2,
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "document_id": 42006,
+      "body_sha256": "2f62cbeba480db0e1129890c21f4c229d89b8ef4e33a11427a26bec6e802304d",
+      "policy_id": "signed_dispute-all-self_operated",
+      "version": "v1",
+      "policy_group": "signed_dispute",
+      "review_status": "approved",
+      "approval_ref": "synthetic-author-review",
+      "effective_from": "2026-10-01T00:00:00+08:00",
+      "effective_to": null,
+      "revision_at": "2026-09-01T00:00:00+08:00",
+      "timebasis": "now",
+      "regions": [
+        "*"
+      ],
+      "fulfillment_scopes": [
+        "self_operated"
+      ],
+      "source": "self-authored-rag-development-42006",
+      "clauses": [
+        {
+          "clause_id": "signed_review_hours",
+          "claim_key": "signed_review_hours",
+          "value": 4,
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "document_id": 42007,
+      "body_sha256": "38fbcccf8a585430260961b72eb85bc99ff96d16b927dfb44a6ce2a373f55b01",
+      "policy_id": "return_window-cn-east-self_operated",
+      "version": "v9",
+      "policy_group": "return_window",
+      "review_status": "approved",
+      "approval_ref": "synthetic-author-review",
+      "effective_from": "2026-09-01T00:00:00+08:00",
+      "effective_to": "2026-10-01T00:00:00+08:00",
+      "revision_at": "2026-09-01T00:00:00+08:00",
+      "timebasis": "now",
+      "regions": [
+        "CN-EAST"
+      ],
+      "fulfillment_scopes": [
+        "self_operated"
+      ],
+      "source": "self-authored-rag-development-42007",
+      "clauses": [
+        {
+          "clause_id": "return_window_days",
+          "claim_key": "return_window_days",
+          "value": 14,
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "document_id": 42008,
+      "body_sha256": "5f1e3d33563a17dfd4b3027ca746515212ea300b22117c356092f4dce85869e3",
+      "policy_id": "return_window-cn-east-self_operated",
+      "version": "v2",
+      "policy_group": "return_window",
+      "review_status": "approved",
+      "approval_ref": "synthetic-author-review",
+      "effective_from": "2026-10-01T00:00:00+08:00",
+      "effective_to": null,
+      "revision_at": "2026-09-01T00:00:00+08:00",
+      "timebasis": "now",
+      "regions": [
+        "CN-EAST"
+      ],
+      "fulfillment_scopes": [
+        "self_operated"
+      ],
+      "source": "self-authored-rag-development-42008",
+      "clauses": [
+        {
+          "clause_id": "return_window_days",
+          "claim_key": "return_window_days",
+          "value": 7,
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "document_id": 42009,
+      "body_sha256": "ef0be511d91de1efe72b9728c3fe6a81187298faedb9214c332df7b997fdd89d",
+      "policy_id": "return_window-cn-east-marketplace",
+      "version": "v1",
+      "policy_group": "return_window",
+      "review_status": "approved",
+      "approval_ref": "synthetic-author-review",
+      "effective_from": "2026-10-01T00:00:00+08:00",
+      "effective_to": null,
+      "revision_at": "2026-09-01T00:00:00+08:00",
+      "timebasis": "now",
+      "regions": [
+        "CN-EAST"
+      ],
+      "fulfillment_scopes": [
+        "marketplace"
+      ],
+      "source": "self-authored-rag-development-42009",
+      "clauses": [
+        {
+          "clause_id": "return_window_days",
+          "claim_key": "return_window_days",
+          "value": 3,
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "document_id": 42010,
+      "body_sha256": "7828f33684d01e49fdbefd4861c3e3d5ecc4712657dce08c1cc5c95a079240da",
+      "policy_id": "quality_shipping-all-self_operated",
+      "version": "v1",
+      "policy_group": "quality_shipping",
+      "review_status": "approved",
+      "approval_ref": "synthetic-author-review",
+      "effective_from": "2026-10-01T00:00:00+08:00",
+      "effective_to": null,
+      "revision_at": "2026-09-01T00:00:00+08:00",
+      "timebasis": "now",
+      "regions": [
+        "*"
+      ],
+      "fulfillment_scopes": [
+        "self_operated"
+      ],
+      "source": "self-authored-rag-development-42010",
+      "clauses": [
+        {
+          "clause_id": "return_shipping_payer",
+          "claim_key": "return_shipping_payer",
+          "value": "merchant",
+          "conditions": [
+            {
+              "fact": "issue_type",
+              "op": "eq",
+              "value": "quality_verified"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "document_id": 42011,
+      "body_sha256": "0e3e35c51c4e30d095b107573a4cd79c159207dda8f7c9da14baf12f56a6fc24",
+      "policy_id": "preference_shipping-all-self_operated",
+      "version": "v1",
+      "policy_group": "preference_shipping",
+      "review_status": "approved",
+      "approval_ref": "synthetic-author-review",
+      "effective_from": "2026-10-01T00:00:00+08:00",
+      "effective_to": null,
+      "revision_at": "2026-09-01T00:00:00+08:00",
+      "timebasis": "now",
+      "regions": [
+        "*"
+      ],
+      "fulfillment_scopes": [
+        "self_operated"
+      ],
+      "source": "self-authored-rag-development-42011",
+      "clauses": [
+        {
+          "clause_id": "return_shipping_payer",
+          "claim_key": "return_shipping_payer",
+          "value": "customer",
+          "conditions": [
+            {
+              "fact": "issue_type",
+              "op": "eq",
+              "value": "change_of_mind"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "document_id": 42012,
+      "body_sha256": "392a1f509b18b1ffcfbe5c54da8d3fdcc15e94736b513ac9fb5266a1e2db46ab",
+      "policy_id": "warranty-all-self_operated",
+      "version": "v1",
+      "policy_group": "warranty",
+      "review_status": "approved",
+      "approval_ref": "synthetic-author-review",
+      "effective_from": "2026-10-01T00:00:00+08:00",
+      "effective_to": null,
+      "revision_at": "2026-09-01T00:00:00+08:00",
+      "timebasis": "now",
+      "regions": [
+        "*"
+      ],
+      "fulfillment_scopes": [
+        "self_operated"
+      ],
+      "source": "self-authored-rag-development-42012",
+      "clauses": [
+        {
+          "clause_id": "warranty_days",
+          "claim_key": "warranty_days",
+          "value": 365,
+          "conditions": [
+            {
+              "fact": "product_type",
+              "op": "eq",
+              "value": "electronic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "document_id": 42013,
+      "body_sha256": "e774d66996e2052f5031f5dd6194b4dada1b32e9d38e1323491a2c9d83163604",
+      "policy_id": "loss_compensation-all-self_operated",
+      "version": "vA",
+      "policy_group": "loss_compensation",
+      "review_status": "approved",
+      "approval_ref": "synthetic-author-review",
+      "effective_from": "2026-10-01T00:00:00+08:00",
+      "effective_to": null,
+      "revision_at": "2026-09-01T00:00:00+08:00",
+      "timebasis": "now",
+      "regions": [
+        "*"
+      ],
+      "fulfillment_scopes": [
+        "self_operated"
+      ],
+      "source": "self-authored-rag-development-42013",
+      "clauses": [
+        {
+          "clause_id": "loss_compensation_amount",
+          "claim_key": "loss_compensation_amount",
+          "value": 20,
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "document_id": 42014,
+      "body_sha256": "72e2fe6703c0fc594b95558d7474984e620d3ae99f13caba43bb04484edbdad7",
+      "policy_id": "loss_compensation-all-self_operated",
+      "version": "vB",
+      "policy_group": "loss_compensation",
+      "review_status": "approved",
+      "approval_ref": "synthetic-author-review",
+      "effective_from": "2026-10-01T00:00:00+08:00",
+      "effective_to": null,
+      "revision_at": "2026-09-01T00:00:00+08:00",
+      "timebasis": "now",
+      "regions": [
+        "*"
+      ],
+      "fulfillment_scopes": [
+        "self_operated"
+      ],
+      "source": "self-authored-rag-development-42014",
+      "clauses": [
+        {
+          "clause_id": "loss_compensation_amount",
+          "claim_key": "loss_compensation_amount",
+          "value": 50,
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "document_id": 42015,
+      "body_sha256": "2558291d489be21dd4439fcf3769b79a67811f1458a89afdd631cf5dddc67717",
+      "policy_id": "coupon-all-self_operated",
+      "version": "v1",
+      "policy_group": "coupon",
+      "review_status": "approved",
+      "approval_ref": "synthetic-author-review",
+      "effective_from": "2026-10-01T00:00:00+08:00",
+      "effective_to": null,
+      "revision_at": "2026-09-01T00:00:00+08:00",
+      "timebasis": "now",
+      "regions": [
+        "*"
+      ],
+      "fulfillment_scopes": [
+        "self_operated"
+      ],
+      "source": "self-authored-rag-development-42015",
+      "clauses": [
+        {
+          "clause_id": "coupon_cashable",
+          "claim_key": "coupon_cashable",
+          "value": false,
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "document_id": 42016,
+      "body_sha256": "7938d6f00460b56bd07c92dc7e6dd0e8c901370d33c80ceba195d9cc2e6ab5bb",
+      "policy_id": "damage-all-self_operated",
+      "version": "v1",
+      "policy_group": "damage",
+      "review_status": "approved",
+      "approval_ref": "synthetic-author-review",
+      "effective_from": "2026-10-01T00:00:00+08:00",
+      "effective_to": null,
+      "revision_at": "2026-09-01T00:00:00+08:00",
+      "timebasis": "now",
+      "regions": [
+        "*"
+      ],
+      "fulfillment_scopes": [
+        "self_operated"
+      ],
+      "source": "self-authored-rag-development-42016",
+      "clauses": [
+        {
+          "clause_id": "damage_photo_required",
+          "claim_key": "damage_photo_required",
+          "value": true,
+          "conditions": []
+        }
+      ]
+    }
+  ]
+}

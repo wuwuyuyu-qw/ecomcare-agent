@@ -1,0 +1,12 @@
+{
+  "version": "compound-routing-v1.0",
+  "dataset_sha256": "114e29c80f6fbab2917e67cf3f5bc6e932973849fa26f3b1415dc338879bb59a",
+  "files": {
+    "dev.jsonl": {
+      "sha256": "114e29c80f6fbab2917e67cf3f5bc6e932973849fa26f3b1415dc338879bb59a",
+      "count": 12
+    }
+  },
+  "scope": "12 self-authored synthetic development cases, 14 turns, shared demo fixtures; no held-out/generalization claim",
+  "labels": "requested actual observations and forbidden order reads, not model-intent labels or answer semantic truth"
+}
